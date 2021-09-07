@@ -1,3 +1,4 @@
+const  color = randomColor();
 const randomColor = require('randomcolor');
 const createColor = require('my-colors');
 
