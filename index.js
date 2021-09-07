@@ -1,4 +1,4 @@
-const randomColor = require('randomcolor'); /*import the script the library and it is a function*/
+const randomColor = require('randomcolor');
 const createColor = require('my-colors');
 
 
