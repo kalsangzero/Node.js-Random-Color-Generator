@@ -1,8 +1,6 @@
-const  color = randomColor();
 const randomColor = require('randomcolor');
+const color = randomColor();
 const createColor = require('my-colors');
-
-
 const customColor = randomColor({
     hue: process.argv[2],
     luminosity:process.argv[3]});
@@ -16,6 +14,4 @@ const output = colorInLines (`###############################
 ###############################
 ###############################
 ###############################`);
-
-
-  console.log(output);
+console.log(output);
